@@ -1,0 +1,27 @@
+{
+  "name": "downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "dev": "nodemon -e ts -w src -x \"tsx src/main.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "node-id3": "^0.2.6",
+    "pipebomb.js": "^0.11.0",
+    "sanitize-filename": "^1.6.3",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "nodemon": "^3.1.4",
+    "tsx": "^4.15.7"
+  }
+}
